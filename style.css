@@ -12,6 +12,8 @@ body {
 h1 > span {
     color: #21262d;
     font-weight: bolder;
+    /* Remove comment for text-shadow on "DARK" */
+    /*text-shadow: 0 0 5px #1f6feb;*/
 }
 
 .logo-header {
@@ -22,10 +24,6 @@ h1 > span {
 }
 
 .logo-header:hover {
-    display: block;
-    margin: 0 auto;
-    width: 100px;
-    height: 100px;
     -webkit-filter: drop-shadow(1px -1px 5px #1f6feb);
 }
 
@@ -37,7 +35,9 @@ h1 > span {
 
 .button {
     background-color: #238637;
-    color: #c9d1d9;
+    font-family: inherit;
+    font-size: 1rem;
+    color: inherit;
     font-weight: bold;
     text-align: center;
     border: 1px solid #2ea043;
@@ -49,19 +49,13 @@ h1 > span {
 
 .button:hover {
     background-color: #2ba043;
-    color: #c9d1d9;
-    font-weight: bold;
-    text-align: center;
     border: 1px solid #3bc053;
-    border-radius: 8px;
-    width: 100%;
-    height: 36px;
-    display: block;
+    color: white;
 }
 
 .input {
     background-color: #0d1117;
-    color: #c9d1d9;
+    color: inherit;
     border: 1px solid #21262d;
     border-radius: 8px;
     width: 100%;
