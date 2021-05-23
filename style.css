@@ -1,0 +1,150 @@
+*, *::before, *::after {
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+h1 > span {
+    color: #21262d;
+    font-weight: bolder;
+}
+
+.logo-header {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.logo-header:hover {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    -webkit-filter: drop-shadow(1px -1px 5px #1f6feb);
+}
+
+.header {
+    display: block;
+    text-align: center;
+    font-weight: normal;
+}
+
+.button {
+    background-color: #238637;
+    color: #c9d1d9;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #2ea043;
+    border-radius: 8px;
+    width: 100%;
+    height: 36px;
+    display: block;
+}
+
+.button:hover {
+    background-color: #2ba043;
+    color: #c9d1d9;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #3bc053;
+    border-radius: 8px;
+    width: 100%;
+    height: 36px;
+    display: block;
+}
+
+.input {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    border: 1px solid #21262d;
+    border-radius: 8px;
+    width: 100%;
+    height: 36px;
+    display: block;
+    padding: 0.5rem;
+}
+
+.input:focus {
+    border: 1px solid #1f6feb;
+    box-shadow: 0 0 0 3px #1f477ee1;
+    outline: none;
+}
+
+.label {
+    display: inline-block;
+}
+
+.form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #161b22;
+    padding: 24px;
+    border: 1px solid #21262d;
+    border-radius: 8px;
+}
+
+.form-field {
+    margin: 24px 0;
+}
+
+.form-field .label {
+    margin-bottom: 8px;
+}
+
+.form-field:first-child {
+    margin-top: 0;
+}
+
+.form-field:last-child {
+    margin-bottom: 0;
+}
+
+.new-user {
+    border: 1px solid #6e7681;
+    width: 400px;
+    margin: 16px auto;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    line-height: 0;
+}
+
+.new-user > p {
+    display: inline-block;
+}
+
+.new-user > a {
+    display: inline-block;
+    color: #1f6feb;
+    text-decoration: none;
+}
+
+.new-user > a:hover {
+    display: inline-block;
+    color: #1f6feb;
+    text-decoration: underline;
+}
+
+.pass-forgot {
+    float: right;
+    color: #1f6feb;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+footer > a {
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: #1f6feb;
+}

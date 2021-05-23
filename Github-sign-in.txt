@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS - Vježba 15</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: sans-serif;
+    }
+    .button {
+      background-color: green;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      width: 100%;
+      display: block;
+      height: 40px;
+      border: none;
+      border-radius: 8px;
+    }
+    .input {
+      border-radius: 8px;
+      height: 40px;
+      display: block;
+      width: 100%;
+      border: 1px solid lightsteelblue;
+      padding: 1rem;
+    }
+    .label {
+      display: inline-block;
+    }
+    .form-field .label {
+      margin-bottom: 8px;
+    }
+    .form {
+      width: 480px;
+      margin: 0 auto;
+      background-color: aliceblue;
+      border: 1px solid lightsteelblue;
+      border-radius: 8px;
+      padding: 24px;
+    }
+    .form .form-field {
+      margin-top: 24px;
+    }
+    .form .form-field:first-child {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <form class="form" action="">
+    <div class="form-field">
+      <label class="label" for="password">Password</label>
+      <input class="input" type="text" id="password" name="password">
+    </div>
+    <div class="form-field">
+      <button class="button">Sign in</button>
+    </div>
+  </form>
+</body>
+</html>
