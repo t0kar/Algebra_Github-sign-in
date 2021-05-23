@@ -117,6 +117,7 @@ h1 > span {
     display: inline-block;
     color: #1f6feb;
     text-decoration: none;
+    margin-right: -4px;
 }
 
 .new-user > a:hover {
